@@ -108,3 +108,12 @@ defaultContentLanguageInSubdir = false
   [[module.mounts]]
     source = "static/fonts"
     target = "static/fonts"
+  [[module.mounts]]
+    source = "content/en/docs/latest"
+    target = "content/docs/1.0"
+    lang = 'en'
+  [[module.mounts]]
+    source = "content/en"
+    target = "content"
+    lang = 'en'
+    excludeFiles = 'docs/latest/*'    
