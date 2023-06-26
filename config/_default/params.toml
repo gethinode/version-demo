@@ -7,6 +7,7 @@
     contentPath = "/docs/"
     version = "1.0"
     basePath = "node_modules/@gethinode/hinode"
+    overview = "/docs/versions/"
 
 [[docs.releases]]
     label = "Current release"
