@@ -4,7 +4,7 @@ paginate = 9
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://template.gethinode.com/"
+baseURL = "https://version-hinode.netlify.app/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
@@ -18,7 +18,7 @@ timeout = "120s"
 
 languageCode = "en-us"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [taxonomies]
   tag = 'tags'

@@ -4,8 +4,28 @@
     enableDarkMode = true
 
 [docs]
-    version = "0.9"
+    contentPath = "/docs/"
+    version = "1.0"
     basePath = "node_modules/@gethinode/hinode"
+
+[[docs.releases]]
+    label = "Current release"
+
+[[docs.releases]]
+    label = "latest"
+    url = "/docs/latest/"
+    latest = true
+
+[[docs.releases]]
+    label = "Previous releases"
+
+[[docs.releases]]
+    label = "v0.2"
+    url = "/docs/0.2/"
+
+[[docs.releases]]
+    label = "v0.1"
+    url = "/docs/0.1/"
 
 [home]
     sections = ["blog", "projects"]
