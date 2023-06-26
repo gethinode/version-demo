@@ -7,6 +7,10 @@
     contentPath = "/docs/"
     version = "1.0"
     basePath = "node_modules/@gethinode/hinode"
+    overview = "/docs/versions/"
+    latest = "1.0"
+    checkVersion = true
+    latestURL = "https://version-demo.gethinode.com/docs/"
 
 [[docs.releases]]
     label = "Current release"
@@ -18,6 +22,11 @@
 
 [[docs.releases]]
     label = "Previous releases"
+
+[[docs.releases]]
+    label = "v0.9"
+    url = "/docs/0.9/"
+    redirect = "https://v0-9--version-hinode.netlify.app/docs/0.9/"
 
 [[docs.releases]]
     label = "v0.2"
