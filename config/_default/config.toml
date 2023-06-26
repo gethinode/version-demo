@@ -4,7 +4,7 @@ paginate = 9
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://version-hinode.netlify.app/"
+baseURL = "https://v0.9--version-hinode.netlify.app/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
@@ -108,3 +108,12 @@ defaultContentLanguageInSubdir = false
   [[module.mounts]]
     source = "static/fonts"
     target = "static/fonts"
+  [[module.mounts]]
+    source = "content/en/docs/latest"
+    target = "content/docs/0.9"
+    lang = 'en'
+  [[module.mounts]]
+    source = "content/en"
+    target = "content"
+    lang = 'en'
+    excludeFiles = 'docs/latest/*'    
