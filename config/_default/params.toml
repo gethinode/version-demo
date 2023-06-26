@@ -5,9 +5,12 @@
 
 [docs]
     contentPath = "/docs/"
-    version = "1.0"
     basePath = "node_modules/@gethinode/hinode"
-
+    version = "0.9"
+    latest = "1.0"
+    checkVersion = true
+    latestURL = "https://version-demo.gethinode.com/docs/"
+  
 [[docs.releases]]
     label = "Current release"
 
