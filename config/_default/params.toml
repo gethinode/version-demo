@@ -16,8 +16,8 @@
     label = "Current release"
 
 [[docs.releases]]
-    label = "latest"
-    url = "/docs/latest/"
+    label = "1.0"
+    url = "/docs/1.0/"
     latest = true
 
 [[docs.releases]]
