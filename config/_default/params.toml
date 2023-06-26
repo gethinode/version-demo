@@ -8,6 +8,9 @@
     version = "1.0"
     basePath = "node_modules/@gethinode/hinode"
     overview = "/docs/versions/"
+    latest = "1.0"
+    checkVersion = true
+    latestURL = "https://version-demo.gethinode.com/docs/"
 
 [[docs.releases]]
     label = "Current release"
