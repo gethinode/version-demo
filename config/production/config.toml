@@ -1,1 +1,13 @@
-canonifyURLs = false
+disableAliases = true
+
+[outputFormats.REDIR]
+mediaType = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+[mediaTypes."text/netlify"]
+delimiter = ""
+
+[outputs]
+home = ["HTML", "RSS", "REDIR"]
