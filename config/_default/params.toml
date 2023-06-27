@@ -26,7 +26,7 @@
 [[docs.releases]]
     label = "v0.9"
     url = "/docs/0.9/"
-    redirect = "https://v0-9--version-hinode.netlify.app/docs/0.9/"
+    redirect = "https://v0-9--gethinode-version-demo.netlify.app/docs/0.9/"
 
 [[docs.releases]]
     label = "v0.2"
