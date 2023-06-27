@@ -4,7 +4,7 @@ paginate = 9
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://v0.9--version-demo.netlify.app/"
+baseURL = "https://v0-9--gethinode-version-demo.netlify.app/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
