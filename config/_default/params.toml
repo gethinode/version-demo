@@ -3,10 +3,16 @@
     description = "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5."
     enableDarkMode = true
 
+[modules]
+    core = ["bootstrap", "flexsearch", "fontawesome"]
+    optional = ["leaflet", "katex"]
+    excludeSCSS = ["bootstrap"]
+    disableTemplate = ["katex"]
+
 [docs]
     contentPath = "/docs/"
     version = "1.0"
-    basePath = "node_modules/@gethinode/hinode"
+    basePath = "_vendor/github.com/gethinode/hinode"
     overview = "/docs/versions/"
     latest = "1.0"
     checkVersion = true
