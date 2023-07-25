@@ -3,9 +3,9 @@ on:
   push:
     tags:
       - v*
-    branches: [ main ]
+    branches: [ main, v0.9 ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, v0.9 ]
 
 jobs:
   build:
