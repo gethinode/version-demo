@@ -6,6 +6,8 @@ github.com/gethinode/hinode v0.16.5 h1:Cmnkxh7V2Fj8mO1+BpBLbc2hOEVNgniMAti3PZU4N
 github.com/gethinode/hinode v0.16.5/go.mod h1:JB/06DJ9N/Uc3+WF9sZi7dqUuwwgMGzh7y3pd2rNw80=
 github.com/gethinode/hinode v0.16.6 h1:Ui1PTPT3A/1TVpYmham8eRwvnFYJ8zFUgtubI+33llk=
 github.com/gethinode/hinode v0.16.6/go.mod h1:JB/06DJ9N/Uc3+WF9sZi7dqUuwwgMGzh7y3pd2rNw80=
+github.com/gethinode/hinode v0.19.0 h1:7QDAA0RGUvFJMlmzoBfUy8b27yI5+84xPBc5/1qfWrU=
+github.com/gethinode/hinode v0.19.0/go.mod h1:2+ioIlr+xp8k1eES6vGXWmmoxu+Mz+FHan3Ea8YPFd0=
 github.com/nextapps-de/flexsearch v0.0.0-20230711092928-1243fd883ec3 h1:H/qVR5O4BXjRjD+5PZB+r4ug2BSJ2Of4RtwOntd+OKo=
 github.com/nextapps-de/flexsearch v0.0.0-20230711092928-1243fd883ec3/go.mod h1:5GdMfPAXzbA2gXBqTjC6l27kioSYzHlqDMh0+wyx7sU=
 github.com/twbs/bootstrap v5.3.0+incompatible h1:4+staADO0OrqUv77m+XL+vHYojLH9oxb4Vxi9mnIJWg=
