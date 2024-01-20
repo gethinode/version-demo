@@ -59,7 +59,7 @@ defaultContentLanguageInSubdir = false
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.81.0"
+    min = "0.120.0"
     max = ""
   [[module.mounts]]
     source = "archetypes"
