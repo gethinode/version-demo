@@ -51,13 +51,15 @@
     anchor = true
     logo = "/img/logo_icon.svg"
     color = "body"
-    style = "light"
     fixed = true
-    offset = "3.8em"
+    horizontal = false
+    offset = "5.5rem"
     search = true
+    searchModal = false
     breadcrumb = false
     toc = true
     sidebar = true
+    size = "md"
 
 [messages]
     placement = "bottom-right"
@@ -188,5 +190,4 @@
     mozilla_image = "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
     observatory = "https://observatory.mozilla.org/analyze/demo.gethinode.com"
     pagespeed = "https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F"
-    utterances = "https://utteranc.es"
  

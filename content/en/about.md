@@ -35,7 +35,6 @@ Additional features include:
 * Switching between light mode and dark mode
 * Support for multiple languages
 * Reusable Bootstrap components through configurable shortcodes and partials
-* Embedded comments through light-weight integration with GitHub via [utteranc.es]({{< param "links.utterances" >}})
 * Integrated sidebar navigation for content-heavy sections, such as documentation pages
 * Reponsive image handling for multiple screen sizes and resolutions
 * Optimized search results, scoring 100 points for SEO on [PageSpeed Insights]({{< param "links.pagespeed" >}})

@@ -13,7 +13,7 @@ layout: docs
 
 Every minor and patch release from v1 is listed below.
 
-{{< table table-hover table-bordered >}}
+{{< table class="table-hover table-bordered" >}}
 | Release |
 |---------|
 | [1.0](/docs/1.0/) <span class="badge text-bg-primary text-white ms-3">Latest</span> |
@@ -26,7 +26,7 @@ Every minor and patch release from v1 is listed below.
 
 Every minor and patch release from v0 is listed below.
 
-{{< table table-hover table-bordered >}}
+{{< table class="table-hover table-bordered" >}}
 | Release |
 |---------|
 | [0.9](/docs/0.9/)    |
