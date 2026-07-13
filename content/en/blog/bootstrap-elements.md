@@ -12,7 +12,7 @@ thumbnail:
   originURL: https://unsplash.com/photos/QLPWQvHvmII
 ---
 
-Hinode provides several shortcodes that wrap common Bootstrap components. Refer to the [official documentation]({{< param "links.hinode_docs" >}}) for more details.
+Hinode provides several shortcodes that wrap common Bootstrap components. Refer to the [official documentation]({{% param "links.hinode_docs" %}}) for more details.
 
 ## Accordion
 
@@ -21,14 +21,14 @@ As an example, the following shortcode displays an accordion with three elements
 <!-- markdownlint-disable MD037 -->
 {{< example lang="hugo" >}}
 {{</* accordion */>}}
-  {{</* accordion-item header="Accordion Item #1" show="true" */>}}
+  {{</* accordion-item title="Accordion Item #1" show="true" */>}}
     This is the first item's accordion body. It supports HTML content. The item is shown by adding the value
     <code>show</code> to the <code>class</code> argument.
   {{</* /accordion-item */>}}
-  {{</* accordion-item header="Accordion Item #2" */>}}
+  {{</* accordion-item title="Accordion Item #2" */>}}
     This is the second item's accordion body. It supports HTML content too.
   {{</* /accordion-item */>}}
-  {{</* accordion-item header="Accordion Item #3" */>}}
+  {{</* accordion-item title="Accordion Item #3" */>}}
     This is the third item's accordion body.
   {{</* /accordion-item */>}}
 {{</* /accordion */>}}
@@ -49,12 +49,12 @@ As an example, the following shortcode displays a simple alert.
 
 ## Badge
 
-Use HTML code to display a badge for a heading. See the Bootstrap [documentation]({{< param "links.bs_badge_heading" >}}) for more options.
+Use HTML code to display a badge for a heading. See the Bootstrap [documentation]({{% param "links.bs_badge_heading" %}}) for more options.
 
 {{< example >}}
 <h1>Example heading of size one <span class="badge bg-secondary">New</span></h1>
-<h2>Example heading of size two <span class="badge bg-secondary">New</span></h2>
-<h3>Example heading of size three <span class="badge bg-secondary">New</span></h3>
+<h2 id="example-heading-two">Example heading of size two <span class="badge bg-secondary">New</span></h2>
+<h3 id="example-heading-three">Example heading of size three <span class="badge bg-secondary">New</span></h3>
 <h4>Example heading of size four <span class="badge bg-secondary">New</span></h4>
 <h5>Example heading of size five <span class="badge bg-secondary">New</span></h5>
 <h6>Example heading of size six <span class="badge bg-secondary">New</span></h6>
@@ -98,11 +98,11 @@ As an example, the following shortcode displays a group of three buttons.
 
 ## Card
 
-As an example, the following shortcode displays a stacked card with icon that links to the [about]({{< ref "about" >}}) page. It includes a custom header.
+As an example, the following shortcode displays a stacked card with icon that links to the [about]({{% ref "about" %}}) page. It includes a custom header.
 
 <!-- markdownlint-disable MD037 -->
 {{< example lang="hugo" >}}
-{{</* card path="about" padding="3" class="w-50" color="light" header="publication" footer="none" /*/>}}
+{{</* card path="about" padding="3" class="w-50" color="light" header-style="publication" footer-style="none" /*/>}}
 {{< /example >}}
 <!-- markdownlint-enable MD037 -->
 
@@ -126,7 +126,7 @@ As an example, the following shortcode displays a button that, when clicked, tri
 
 <!-- markdownlint-disable MD037 -->
 {{< example lang="hugo" >}}
-{{</* button collapse="collapse-1" */>}}
+{{</* button collapse-id="collapse-1" */>}}
     Trigger panel
 {{</* /button */>}}
 
@@ -201,7 +201,7 @@ As an example, the following shortcode displays a light navigation header.
 
 <!-- markdownlint-disable MD037 -->
 {{< example lang="hugo" >}}
-{{</* navbar path="about" color="primary" size="sm" search="false" menus="sample" title="Brand" */>}}
+{{</* navbar path="about" color="primary" breakpoint="sm" search="false" menu="sample" title="Brand" */>}}
 {{< /example >}}
 <!-- markdownlint-enable MD037 -->
 
@@ -227,7 +227,7 @@ As an example, the following shortcode displays a button that, when clicked, tri
     Show toast
 {{</* /button */>}}
 
-{{</* toast header="Custom title" */>}}
+{{</* toast title="Custom title" */>}}
     This is a toast message.
 {{</* /toast */>}}
 {{< /example >}}

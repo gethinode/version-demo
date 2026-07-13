@@ -13,17 +13,17 @@ showComments: false
         <div class="row justify-content-center text-center">
             <div class="col-lg-4">
                 <i class="fa-brands fa-bootstrap fa-2xl"></i>
-                <h2 class="h4">Bootstrap framework</h2>
+                <h2 id="bootstrap-framework" class="h4">Bootstrap framework</h2>
                 <p>Build fast, responsive sites with Bootstrap 5. Easily customize your site with the source Sass files.</p>
             </div>
             <div class="col-lg-4">
                 <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
-                <h2 class="h4">Full text search</h2>
+                <h2 id="full-text-search" class="h4">Full text search</h2>
                 <p>Search your site with FlexSearch, a full-text search library with zero dependencies.</p>
             </div>
             <div class="col-lg-4">
                 <i class="fa-solid fa-code fa-2xl"></i>
-                <h2 class="h4">Development tools</h2>
+                <h2 id="development-tools" class="h4">Development tools</h2>
                 <p>Use Node Package Manager to automate the build process and to keep track of dependencies.</p>
             </div>
         </div>
@@ -37,6 +37,6 @@ Additional features include:
 * Reusable Bootstrap components through configurable shortcodes and partials
 * Integrated sidebar navigation for content-heavy sections, such as documentation pages
 * Reponsive image handling for multiple screen sizes and resolutions
-* Optimized search results, scoring 100 points for SEO on [PageSpeed Insights]({{< param "links.pagespeed" >}})
-* Secure by default, scoring A+ on [Mozilla Observatory test]({{< param "links.observatory" >}})
+* Optimized search results, scoring 100 points for SEO on [PageSpeed Insights]({{% param "links.pagespeed" %}})
+* Secure by default, scoring A+ on [Mozilla Observatory test]({{% param "links.observatory" %}})
 {.tickmark}

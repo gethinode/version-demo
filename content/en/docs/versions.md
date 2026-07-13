@@ -9,29 +9,29 @@ layout: docs
 <div class="row row-cols-md-2">
     <col>
 <div>
-<h2>v1.x</h2>
+<h2 id="v1x">v1.x</h2>
 
 Every minor and patch release from v1 is listed below.
 
 {{< table class="table-hover table-bordered" >}}
 | Release |
 |---------|
-| [1.0](/docs/1.0/) <span class="badge text-bg-primary text-white ms-3">Latest</span> |
+| [1.0](/docs/1.0/about/) <span class="badge text-bg-primary text-white ms-3">Latest</span> |
 {{< /table >}}
 </div>
     </col>
     <col>
 <div>
-<h2>v0.x</h2>
+<h2 id="v0x">v0.x</h2>
 
 Every minor and patch release from v0 is listed below.
 
 {{< table class="table-hover table-bordered" >}}
 | Release |
 |---------|
-| [0.9](/docs/0.9/)    |
-| [0.2](/docs/0.2/)    |
-| [0.1](/docs/0.1/)    |
+| [0.9](https://v0-9--gethinode-version-demo.netlify.app/docs/0.9/)    |
+| [0.2](/docs/0.2/about/)    |
+| [0.1](/docs/0.1/about/)    |
 {{< /table >}}
 </div>
     </col>
