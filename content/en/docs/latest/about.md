@@ -7,3 +7,5 @@ aliases:
   - "/docs/1.0/"
   - "/docs/"
 ---
+
+Documentation for release 1.0.

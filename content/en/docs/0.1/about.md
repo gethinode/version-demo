@@ -6,3 +6,5 @@ layout: docs
 aliases:
   - "/docs/0.1/"
 ---
+
+Documentation for release v0.1.
