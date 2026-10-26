@@ -38,6 +38,9 @@
     "url": "https://github.com/gethinode/hinode/issues"
   },
   "homepage": "https://gethinode.com",
+  "dependencies": {
+    "katex": "0.18.4"
+  },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "autoprefixer": "^10.4.20",
@@ -57,6 +60,16 @@
   },
   "optionalDependencies": {
     "fsevents": "*"
+  },
+  "overrides": {
+    "hugo-bin": {
+      "@xhmikosr/bin-wrapper": "^14.5.2"
+    },
+    "brace-expansion@^1": "^1.1.21",
+    "js-yaml@^4": "^4.3.2",
+    "markdown-it@^14": "^14.3.3",
+    "postcss-selector-parser": "^7.1.7",
+    "micromatch": "^4.0.8"
   },
   "hugo-bin": {
     "buildTags": "extended"

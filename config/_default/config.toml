@@ -88,5 +88,22 @@ defaultContentLanguageInSubdir = false
     target = "content"
     lang = 'en'
     excludeFiles = 'docs/latest/*'
+  # Override legacy module assets with the patched npm renderer.
+  [[module.mounts]]
+    source = "node_modules/katex/dist/katex.js"
+    target = "assets/js/modules/katex/katex.js"
+  [[module.mounts]]
+    source = "node_modules/katex/dist/contrib/auto-render.js"
+    target = "assets/js/modules/katex/katex-autorender.js"
+  [[module.mounts]]
+    source = "node_modules/katex/dist/katex.css"
+    target = "assets/scss/katex.scss"
+  [[module.mounts]]
+    source = "node_modules/katex/dist/fonts"
+    target = "static/fonts"
+  # KaTeX CSS is emitted in /css and uses relative fonts/ URLs.
+  [[module.mounts]]
+    source = "node_modules/katex/dist/fonts"
+    target = "static/css/fonts"
   [[module.imports]]
     path = "github.com/gethinode/hinode"
